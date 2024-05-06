@@ -32,7 +32,7 @@ Nesse print, segue alguns exemplos práticos de estilos html, como: cor, fonte, 
 
 
 
-![Media](https://github.com/duartegab/Projeto-Mini-PI/blob/main/cinco.png)
+![Media](https://github.com/duartegab/kithtml/blob/main/cinco.png)
 Para finalizarmos os prints, segue um, no qual mostro na prática como adicionar um elemento de mídia: vídeo, em seu site. Vale a pena conferir, em?!
 
 
