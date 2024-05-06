@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+<link rel="icon" type="image/x-ico" href="/pages/img_pages/tigrinho .ico">
+<title>kit html.</title>
+<header class="header">
+  <div class="container">
+      <div class="header-cont">
+          <div class="header-text">
+              <h1 class="texto-com-sombra">HTML Semantics</h1>
+              <h2 class="texto-com-sombra">Alguns conceitos sobre Semantics HTML</h2>
+          </div>
+      </div>
+  </div>
+</header>
+</head>
+<body>
+
+<div class="sidenav">
+    <a href="/index.html"><big><big>Home</big></big></a>
+  <br>
+  <a href="/pages/html_basic.html" target="content">HTML Basic</a>
+  <a href="/pages/html_elements.html" target="content">HTML Elements</a>
+  <a href="/pages/html_attributes.html" target="content">HTML Attributes</a>
+  <a href="/pages/html_headings.html" target="content">HTML Headings</a>
+  <a href="/pages/html_paragraphs.html" target="content">HTML Paragraphs</a>
+  <a href="/pages/html_styles.html" target="content">HTML Styles</a>
+  <a href="/pages/html_formatting.html" target="content">HTML Formatting</a>
+  <a href="/pages/html_quotations.html" target="content">HTML Quotations</a>
+  <a href="/pages/html_comments.html" target="content">HTML Comments</a>
+  <a href="/pages/html_colors.html" target="content">HTML Colors</a>
+  <a href="/pages/html_links.html" target="content">HTML Links</a>
+  <a href="/pages/html_favicon.html" target="content">HTML Favicon</a>
+  <a href="/pages/html_table.html" target="content">HTML Table</a>
+  <a href="/pages/html_list.html" target="content">HTML List</a>
+  <a href="/pages/html_block_inline.html" target="content">HTML Block & Inline</a>
+  <a href="/pages/html_div.html" target="content">HTML Div</a>
+  <a href="/pages/html_classes.html" target="content">HTML Classes</a>
+  <a href="/pages/html_id.html" target="content">HTML Id</a>
+  <a href="/pages/html_iframes.html" target="content">HTML Iframes</a>
+  <a href="/pages/html_javascript.html" target="content">HTML JavaScript</a>
+  <a href="/pages/html_semantics.html" target="content">HTML Semantics</a>
+  <a href="/pages/html_styleguide.html" target="content">HTML Style Guide</a>
+  <a href="/pages/html_entities.html" target="content">HTML Entities</a>
+  <a href="/pages/html_symbols.html" target="content">HTML Symbols</a>
+  <a href="/pages/html_emojis.html" target="content">HTML Emojis</a>
+  <a href="/pages/html_charsets.html" target="content">HTML Charsets</a>
+  <a href="/pages/html_url_encode.html" target="content">HTML URL Encode</a>
+  <a href="/pages/html_html_vs_xhtml.html" target="content">HTML vs XHTML</a>
+  <a href="/pages/html_forms.html" target="content">HTML Forms</a>
+  <a href="/pages/html_form_attributes.html" target="content">HTML Form Attributes</a>
+  <a href="/pages/html_form_elements.html" target="content">HTML Form Elements</a>
+  <a href="/pages/html_input_types.html" target="content">HTML Input Types</a>
+  <a href="/pages/html_input_attributes.html" target="content">HTML Input Attributes</a>
+  <a href="/pages/html_input_form_attributes.html" target="content">HTML Input Form Attributes</a>
+  <a href="/pages/html_canvas.html" target="content">HTML Canvas</a>
+  <a href="/pages/html_svg.html" target="content">HTML SVG</a>
+  <a href="/pages/html_media.html" target="content">HTML Media</a>
+  <a href="/pages/html_video.html" target="content">HTML Video</a>
+  <a href="/pages/html_audio.html" target="content">HTML Audio</a>
+  <a href="/pages/html_drag_drop.html" target="content">HTML Drag/Drop</a>
+  <br>
+  <a href="#footer"><big><big>Contact</big></big></a>
+  <br>
+</div>
+
+<br>
+  <div class="content">
+      <p class="texto-com-sombra">HTML semantic refere-se à prática de escrever código HTML de uma forma que forneça significado e estrutura clara ao conteúdo da página da web. Me acompanhe:</p>
+  </div></div>
+
+  <div class="content">
+    <h2>Semantics</h2>
+    <ul><li>O elemento &lt;article&gt; é uma das muitas tags HTML usada para representar um conteúdo independente e autossuficiente.<br> Como um post de blog, uma notícia ou um artigo. 
+      Se liga no exemplo:</li><br>
+	
+      <blockquote class="citacao">
+          <p class="texto-com-sombra">
+            Arquivo html<BR><br>
+              &lt;article class="all-browsers"&gt;<br>
+                &lt;h1&gt;Sistemas Operacionais&lt;/h1&gt;<br>
+                &lt;article class="browser"&gt;<br>
+                  &lt;h2&gt;Android&lt;/h2&gt;<br>
+                  &lt;p&gt;Desenvolvido pela Google, é um sistema operacional baseado em Linux principalmente usado em smartphones e tablets.&lt;/p&gt;<br>
+                &lt;/article&gt;<br><br>
+                &lt;article class="browser"&gt;<br>
+                  &lt;h2&gt;iOS&lt;/h2&gt;<br>
+                  &lt;p&gt;Desenvolvido pela Apple, é o sistema operacional usado em dispositivos móveis da Apple, como iPhones e iPads.&lt;/p&gt;<br>
+                &lt;/article&gt;<br><br>
+                &lt;article class="browser"&gt;<br>
+                  &lt;h2&gt;Linux&lt;/h2&gt;<br>
+                  &lt;p&gt;É um sistema operacional de código aberto que é usado em uma variedade de dispositivos, desde servidores de rede até dispositivos embarcados e computadores de mesa.&lt;/p&gt;<br>
+                &lt;/article&gt;<br>
+              &lt;/article&gt;<br><br><br><br>
+              Arquivo css<br><br>
+              .all-browsers {<br>
+                margin: 0;<br>
+                padding: 5px;<br>
+                background-color: whitesmoke;<br>
+              }<br><br>
+              
+              .all-browsers > h1, .browser {<br>
+                margin: 10px;<br>
+                padding: 5px;<br>
+              }<br><br>
+              
+              .browser {<br>
+                background: whitesmoke;<br>
+              }<br><br>
+              
+              .browser > h2, p {<br>
+                margin: 4px;<br>
+                font-size: 90%;<br>
+              }<br><br>          </p>
+        </blockquote><br>
+        <p>Ele ficará da seguinte forma em seu site:<br><br>
+        
+          <p><article class="all-browsers">
+            <h1>Sistemas Operacionais</h1>
+            <article class="browser">
+              <h2>Android</h2>
+              <p>Desenvolvido pela Google, é um sistema operacional baseado em Linux principalmente usado em smartphones e tablets.</p>
+            </article>
+          
+            <article class="browser">
+              <h2>iOS</h2>
+              <p>Desenvolvido pela Apple, é o sistema operacional usado em dispositivos móveis da Apple, como iPhones e iPads.</p>
+            </article>
+          
+            <article class="browser">
+              <h2>Linux</h2>
+              <p>É um sistema operacional de código aberto que é usado em uma variedade de dispositivos, desde servidores de rede até dispositivos embarcados e computadores de mesa.</p>
+            </article>
+          </article>
+        </p>
+      </li></ul><br>
+<p>Chegamos ao final de nossa aula, hora de colocar seus conhecimentos em prática. Até a próxima!</p>
+        </div>
+    </div>
+
+
+<br>
+
+<!-- Footer -->
+<div class="w3-row w3-padding-64" id="footer">
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="texto-com-sombra">Site criado por <a href="https://github.com/duartegab"><b>Gabriel Duarte</b></a> para o <a href="https://github.com/duartegab">*Projeto - <b>Kit HTML para Calouros.</b></a></p>
+    </div>
+  </div>
+</footer>
+</body>
+</html> 
+
+
+
+
+

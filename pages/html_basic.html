@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+<link rel="icon" type="image/x-ico" href="/pages/img_pages/tigrinho .ico">
+<title>kit html.</title>
+<header class="header">
+  <div class="container">
+      <div class="header-cont">
+          <div class="header-text">
+              <h1 class="texto-com-sombra">HTML Basic</h1>
+              <h2 class="texto-com-sombra">Alguns elementos básicos de HTML</h2>
+          </div>
+      </div>
+  </div>
+</header>
+</head>
+<body>
+
+<div class="sidenav">
+    <a href="/index.html"><big><big>Home</big></big></a>
+  <br>
+  <a href="/pages/html_basic.html" target="content">HTML Basic</a>
+  <a href="/pages/html_elements.html" target="content">HTML Elements</a>
+  <a href="/pages/html_attributes.html" target="content">HTML Attributes</a>
+  <a href="/pages/html_headings.html" target="content">HTML Headings</a>
+  <a href="/pages/html_paragraphs.html" target="content">HTML Paragraphs</a>
+  <a href="/pages/html_styles.html" target="content">HTML Styles</a>
+  <a href="/pages/html_formatting.html" target="content">HTML Formatting</a>
+  <a href="/pages/html_quotations.html" target="content">HTML Quotations</a>
+  <a href="/pages/html_comments.html" target="content">HTML Comments</a>
+  <a href="/pages/html_colors.html" target="content">HTML Colors</a>
+  <a href="/pages/html_links.html" target="content">HTML Links</a>
+  <a href="/pages/html_favicon.html" target="content">HTML Favicon</a>
+  <a href="/pages/html_table.html" target="content">HTML Table</a>
+  <a href="/pages/html_list.html" target="content">HTML List</a>
+  <a href="/pages/html_block_inline.html" target="content">HTML Block & Inline</a>
+  <a href="/pages/html_div.html" target="content">HTML Div</a>
+  <a href="/pages/html_classes.html" target="content">HTML Classes</a>
+  <a href="/pages/html_id.html" target="content">HTML Id</a>
+  <a href="/pages/html_iframes.html" target="content">HTML Iframes</a>
+  <a href="/pages/html_javascript.html" target="content">HTML JavaScript</a>
+  <a href="/pages/html_semantics.html" target="content">HTML Semantics</a>
+  <a href="/pages/html_styleguide.html" target="content">HTML Style Guide</a>
+  <a href="/pages/html_entities.html" target="content">HTML Entities</a>
+  <a href="/pages/html_symbols.html" target="content">HTML Symbols</a>
+  <a href="/pages/html_emojis.html" target="content">HTML Emojis</a>
+  <a href="/pages/html_charsets.html" target="content">HTML Charsets</a>
+  <a href="/pages/html_url_encode.html" target="content">HTML URL Encode</a>
+  <a href="/pages/html_html_vs_xhtml.html" target="content">HTML vs XHTML</a>
+  <a href="/pages/html_forms.html" target="content">HTML Forms</a>
+  <a href="/pages/html_form_attributes.html" target="content">HTML Form Attributes</a>
+  <a href="/pages/html_form_elements.html" target="content">HTML Form Elements</a>
+  <a href="/pages/html_input_types.html" target="content">HTML Input Types</a>
+  <a href="/pages/html_input_attributes.html" target="content">HTML Input Attributes</a>
+  <a href="/pages/html_input_form_attributes.html" target="content">HTML Input Form Attributes</a>
+  <a href="/pages/html_canvas.html" target="content">HTML Canvas</a>
+  <a href="/pages/html_svg.html" target="content">HTML SVG</a>
+  <a href="/pages/html_media.html" target="content">HTML Media</a>
+  <a href="/pages/html_video.html" target="content">HTML Video</a>
+  <a href="/pages/html_audio.html" target="content">HTML Audio</a>
+  <a href="/pages/html_drag_drop.html" target="content">HTML Drag/Drop</a>
+  <br>
+  <a href="#footer"><big><big>Contact</big></big></a>
+  <br>
+</div>
+<nav class="menu">
+  <ul>
+      <li><a href="html_basic.html">Home</a></li>
+      <li><a href="#documentos">Documentos</a></li>
+      <li><a href="#links">Links</a></li>
+      <li><a href="#imagens">Imagens</a></li>
+      <li><a href="#footer">Contato</a></li>
+  </ul>
+</nav>
+<br>
+<div class="w3-row w3-padding-64" id="home">
+  <div class="content">
+      <p class="texto-com-sombra">Neste primeiro capítulo, você aprenderá sobre os principais elementos que compõem o HTML. Vamos lá?!</p>
+  </div></div>
+ 
+    <div class="w3-row w3-padding-64" id="documentos">
+      <div class="content">
+        <h2>Documentos</h2>
+        <ul>
+         <li>Todos os documentos HTML começam com uma declaração, informando o tipo de documento: (tag !DOCTYPE html).<br>
+          É como dizer ao construtor que tipo de casa você está construindo. Com essa declaração, o navegador sabe que está lidando com HTML.</li><br>
+         <li>O próprio documento HTML começa com a tag 'html' e termina com a tag '/html'.<br>
+          Exemplificando, é como o terreno onde a casa será construída. Todo o conteúdo da página fica dentro desse terreno.</li><br>
+         <li>A parte visível do documento HTML está entre a tag 'body' e a tag '/body'.<br>
+          Já o elemento 'body' é como o interior da casa, onde tudo o que você quer e as pessoas vejam na página fica. Textos, imagens, vídeos,<br> formulários - tudo o que você vê na página fica dentro do corpo.</li><br></ul>
+          <p><b>Vamos fazer um exemplo?</b></p><br>
+          <ul><li>Dentro do seu arquivo index.html, escreva o código abaixo:</li>
+            <blockquote class="citacao">
+              <p class="texto-com-sombra">
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+                &lt;body&gt;<br><br>
+                
+                &lt;h1&gt;Meu primeiro título.&lt;/h1&gt;<br>
+                &lt;p&gt;Meu primeiro parágrafo.&lt;/p&gt;<br><br>
+                
+                &lt;/body&gt;<br>
+                &lt;/html&gt;
+              </p>
+            </blockquote><br>
+            <li>O resultado deverá aparecer da seguinte forma:</li>
+            <p class="texto-com-sombra"><!DOCTYPE html>
+              <html>
+              <body>
+              
+              <h1>Meu primeiro título</h1>
+              <p>Meu primeiro parágrafo.</p>
+              
+              </body>
+              </html></p>
+
+         
+      </div>
+    </div>
+
+
+<div class="w3-row w3-padding-64" id="links">
+  <div class="content">
+    <h2>Links</h2>
+    <ul><li>Os links (que direcionam uma página a outra), são definidos pela tag:<br>
+      &lt;a&gt;</li><br>
+      
+      <li>O direcionamento do link se dá pelo atributo <b>href</b><br>
+      Se você ainda não entendeu esse conceito, relaxe, pois isso é assunto de um próximo capítulo!</li></ul><br>
+      
+      <p><b>Vamos aos exemplos?</b></p>
+
+<ul><li>Escreva o código abaixo em seu arquivo index.html:</li>
+  <blockquote class="citacao">
+    <p class="texto-com-sombra">
+      &lt;a href="https://www.google.com"&gt;Isso é um link&lt;/a&gt;<br>
+    </p>
+  </blockquote>
+   <li>Ele deverá aparecer da seguinte forma em seu site:
+    <a href="https://www.google.com">Isso é um link</a><br></li><br>
+    <br><li>Ao clicar nele, você é direcionado(a) para a página do google. Que tudo, né?!</li><br><br>
+  </ul>
+</div>
+</div>
+
+<div class="w3-row w3-padding-64" id="imagens">
+  <div class="content">
+    <h2>Imagens</h2>
+    <ul><li>As imagens do site, são definidos pela tag:<br>
+      &lt;img&gt;</li><br>
+      
+      <li>Além da tag, os atributos dela também são importantes:<br><br>
+        <b>src</b>(O arquivo de origem);<br>
+        <b>alt</b>(Texto alternativo);<br>
+        <b>width/height</b>(largura e altura). <br><br>
+      Ficou confuso? Fique tranquilo(a)! <br><br>Explicarei passo a passo no exemplo a seguir de como colocar uma imagem em seu site:</li></ul><br>
+      
+      <p><b>Se liga no exemplo</b></p>
+
+<ul><li>Baixe uma imagem em seu computador, com o formato <b>.jpg</b> e ronomeie ela;</li><br><br>
+  <li>No explorador de arquivos, tranfira a imagem para dentro do seu documento do site<br>
+     (aquele que você criou a um tempo atrás para começar os exemplos, lembra?) ;</li><br><br>
+  <li>Agora, passe essa imagem para dentro da pasta img, que você criou dentro de seu documento;</li><br><br>
+  <li>Perfeito, agora é só copiar esse código em seu VsCode <br>
+    (lembre de alterar o nome, pois minha imagem tem um nome diferente!);</li><br>
+  <blockquote class="citacao">
+    <p class="texto-com-sombra">
+      &lt;img src="/Imagens/tigre.jpg" alt="Tigre" width="400" height="200"&gt;
+    </p>
+  </blockquote>
+   <li>A imagem deverá aparecer da seguinte forma em seu site:<br>
+    <img src="/pages/img_pages/tigre.jpg" alt="Tigre" width="400" height="200">
+  </ul>      <p>Chegamos ao final de nossa aula, hora de colocar seus conhecimentos em prática. Até a próxima!</p>
+
+</div>
+</div>
+
+</div>
+</div><br>
+<!-- Footer -->
+<div class="w3-row w3-padding-64" id="footer">
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="texto-com-sombra">Site criado por <a href="https://github.com/duartegab"><b>Gabriel Duarte</b></a> para o <a href="https://github.com/duartegab">*Projeto - <b>Kit HTML para Calouros.</b></a></p>
+    </div>
+  </div>
+</footer>
+</body>
+</html> 
+
+
